@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { assets } from '../assets/assets';
-import { Link,NavLink} from 'react-router-dom';
-import { useState } from 'react';
+import { Link , NavLink} from 'react-router-dom';
+/*************  ✨ Windsurf Command ⭐  *************/
+/**
+ * Navbar component that displays the navigation bar for the website.
+ *
+ * It includes the logo, navigation links, a cart icon and a profile icon.
+ * On small screens, it displays a sidebar menu with the same navigation links.
+ */
+
+/*******  52d768e7-e5d7-44ab-b496-a4ea07cfc012  *******/
 const Navbar = () => {
 
 const [visible, setVisible] = useState(false);
@@ -63,7 +71,7 @@ const [visible, setVisible] = useState(false);
     <div onClick={() => setVisible(false)} className='flex items-center gap-2 p-3 cursor-pointer'>
       <img className='h-5 w-5 rotate-180' src={assets.Drop_down} alt="Dropdown Icon" />
       <p>Back</p>
-    </div>
+    </div> 
 
     {/* Liens du menu */}
     <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to="/">HOME</NavLink>

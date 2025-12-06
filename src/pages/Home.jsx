@@ -1,12 +1,9 @@
 import React from 'react'
-import Hero from '../components/Hero'
-import LatestCollection from '../components/LatestCollection'
-
+import Hero from '../components/Hero.jsx'
 const Home = () => {
   return (
     <div>
-      <Hero/>
-      <LatestCollection/>
+      <Hero />
     </div>
   )
 }
