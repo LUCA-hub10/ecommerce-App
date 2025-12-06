@@ -7,7 +7,7 @@
     import Menu_icon from './Menu_icon.png';
     import Drop_down from './Drop_down.png';
     import Banner from './Banner.png';
-    import p_img1 from './p_img1.png';
+
 
     export const assets = {
     Logo_img,
@@ -18,18 +18,3 @@
     Drop_down,
     Banner,
     };
-
-export const products = [
-    {
-        _id: "aaaaa",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and width.",
-        price: 100,
-        image: [p_img1],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L"],
-        date: 1716634345448,
-        bestseller: true,
-    }
-];

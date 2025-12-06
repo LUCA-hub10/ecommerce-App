@@ -1,15 +1,7 @@
 import React, { useState } from 'react';
 import { assets } from '../assets/assets';
 import { Link , NavLink} from 'react-router-dom';
-/*************  ✨ Windsurf Command ⭐  *************/
-/**
- * Navbar component that displays the navigation bar for the website.
- *
- * It includes the logo, navigation links, a cart icon and a profile icon.
- * On small screens, it displays a sidebar menu with the same navigation links.
- */
 
-/*******  52d768e7-e5d7-44ab-b496-a4ea07cfc012  *******/
 const Navbar = () => {
 
 const [visible, setVisible] = useState(false);
